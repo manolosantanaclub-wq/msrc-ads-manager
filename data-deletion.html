@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Deletion — MSRC Ads Manager</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap');
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --ink: #1a1a2e; --muted: #5a5a72; --accent: #2563eb; --border: #e2e4ed; --bg: #f8f9fc; --card: #ffffff; }
+    body { font-family: 'DM Sans', sans-serif; font-weight: 300; background: var(--bg); color: var(--ink); line-height: 1.75; min-height: 100vh; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 2rem 0; }
+    .container { max-width: 740px; margin: 0 auto; padding: 0 2rem; }
+    .brand { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.25rem; }
+    .brand-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
+    .brand-name { font-family: 'DM Serif Display', serif; font-size: 1.15rem; color: var(--ink); }
+    .header-meta { font-size: 0.8rem; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
+    main { padding: 3rem 0 5rem; }
+    h1 { font-family: 'DM Serif Display', serif; font-size: 2.2rem; font-weight: 400; line-height: 1.2; margin-bottom: 0.5rem; }
+    .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+    h2 { font-weight: 500; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-top: 2.5rem; margin-bottom: 0.75rem; }
+    p { color: var(--muted); margin-bottom: 1rem; font-size: 0.95rem; }
+    ul { list-style: none; margin-bottom: 1rem; }
+    ul li { color: var(--muted); font-size: 0.95rem; padding-left: 1.25rem; position: relative; margin-bottom: 0.4rem; }
+    ul li::before { content: '—'; position: absolute; left: 0; color: var(--border); }
+    .callout { background: #eff6ff; border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+    .callout p { margin: 0; font-size: 0.9rem; color: #1d4ed8; }
+    .steps { counter-reset: step; list-style: none; margin: 1.5rem 0; }
+    .steps li { counter-increment: step; padding-left: 2.5rem; position: relative; margin-bottom: 1rem; color: var(--muted); font-size: 0.95rem; }
+    .steps li::before { content: counter(step); position: absolute; left: 0; top: 0.15em; width: 1.5rem; height: 1.5rem; background: var(--accent); color: #fff; border-radius: 50%; font-size: 0.7rem; font-weight: 500; display: flex; align-items: center; justify-content: center; }
+    footer { border-top: 1px solid var(--border); padding: 2rem 0; background: var(--card); }
+    footer p { font-size: 0.8rem; color: var(--muted); margin: 0; }
+    a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand"><div class="brand-dot"></div><span class="brand-name">Racquets Club Marbella S.L.</span></div>
+      <p class="header-meta">MSRC Ads Manager · Internal Tool</p>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h1>User Data Deletion Instructions</h1>
+      <p class="subtitle">Effective date: 23 March 2026 &nbsp;·&nbsp; Last updated: 23 March 2026</p>
+      <div class="callout"><p><strong>Summary:</strong> MSRC Ads Manager does not store personal data from any individual. No data deletion request is required. However, this page explains how to revoke the application's access to your Meta account.</p></div>
+      <h2>1. About data stored by this application</h2>
+      <p>MSRC Ads Manager is a private internal tool operated exclusively by Racquets Club Marbella S.L. It does not create accounts for any external user, does not store personal data of any individual, and does not retain Meta API data on any external server.</p>
+      <h2>2. How to revoke access</h2>
+      <p>If you are the authorised operator and wish to revoke this application's access to your Meta account:</p>
+      <ol class="steps">
+        <li>Go to your Facebook account settings at <a href="https://www.facebook.com/settings">facebook.com/settings</a>.</li>
+        <li>Navigate to <strong>Security and Login</strong> → <strong>Apps and Websites</strong>.</li>
+        <li>Find <strong>MSRC Ads Manager</strong> in the list of active apps.</li>
+        <li>Click <strong>Remove</strong> to revoke all permissions.</li>
+        <li>Confirm the removal when prompted.</li>
+      </ol>
+      <h2>3. How to delete your Meta advertising data</h2>
+      <p>Any advertising data stored within Meta's platforms can be managed directly through <a href="https://business.facebook.com">Meta Business Manager</a>. For further information, refer to <a href="https://www.facebook.com/privacy/policy">Meta's Privacy Policy</a>.</p>
+      <h2>4. Contact</h2>
+      <ul>
+        <li><strong>Organisation:</strong> Racquets Club Marbella S.L.</li>
+        <li><strong>Address:</strong> Marbella, Málaga, Spain</li>
+        <li><strong>Website:</strong> <a href="https://www.manolosantana.es">manolosantana.es</a></li>
+      </ul>
+    </div>
+  </main>
+  <footer><div class="container"><p>© 2026 Racquets Club Marbella S.L. · Manolo Santana Racquets Club · Marbella, Spain</p></div></footer>
+</body>
+</html>
